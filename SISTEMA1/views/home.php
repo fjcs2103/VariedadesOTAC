@@ -98,7 +98,7 @@
     <div class="full-width navLateral-bg btn-menu"></div>
     <div class="full-width navLateral-body">
       <div class="full-width navLateral-body-logo text-center tittles">
-        <i class="zmdi zmdi-close btn-menu"></i> Inventory
+        <i class="zmdi zmdi-close btn-menu"></i> Variedades OTAC
       </div>
       <figure class="full-width navLateral-body-tittle-menu">
         <div>
@@ -213,7 +213,7 @@
           </li>
           <li class="full-width divider-menu-h"></li>
           <li class="full-width">
-            <a href="products.html" class="full-width">
+            <a href="products.php" class="full-width">
               <div class="navLateral-body-cl">
                 <i class="zmdi zmdi-washing-machine"></i>
               </div>
