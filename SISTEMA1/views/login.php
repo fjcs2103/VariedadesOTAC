@@ -29,7 +29,7 @@
 				<i class="zmdi zmdi-account-circle"></i>
 			</p>
 			<p class="text-center text-condensedLight">Sign in with your Account</p>
-			<form action="home.html">
+			<form action="views/home.php">
 				<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
 					<input class="mdl-textfield__input" type="text" id="userName">
 					<label class="mdl-textfield__label" for="userName">User Name</label>
@@ -38,7 +38,7 @@
 					<input class="mdl-textfield__input" type="password" id="pass">
 					<label class="mdl-textfield__label" for="pass">Password</label>
 				</div>
-				<button class="mdl-button mdl-js-button mdl-js-ripple-effect"  href="home.php"  style="color: #3F51B5; margin: 0 auto; display: block;">
+				<button class="mdl-button mdl-js-button mdl-js-ripple-effect"  style="color: #3F51B5; margin: 0 auto; display: block;">
 					SIGN IN
 				</button>
 			</form>
