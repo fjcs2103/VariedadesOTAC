@@ -1,4 +1,3 @@
-<!-- 
 * Copyright 2018 Carlos Eduardo Alfaro Orellana
   https://www.youtube.com/c/CarlosAlfaro007
 -->
@@ -32,19 +31,19 @@
 	            <div class="Notification-text">
 	                <p>
 	                    <i class="zmdi zmdi-circle"></i>
-	                    <strong>New User Registration</strong> 
+	                    <strong>New User Registration</strong>
 	                    <br>
 	                    <small>Just Now</small>
 	                </p>
 	            </div>
-	        	<div class="mdl-tooltip mdl-tooltip--left" for="notifation-unread-1">Notification as UnRead</div> 
+	        	<div class="mdl-tooltip mdl-tooltip--left" for="notifation-unread-1">Notification as UnRead</div>
 	        </a>
 	        <a href="#" class="Notification" id="notifation-read-1">
 	            <div class="Notification-icon"><i class="zmdi zmdi-cloud-download bg-primary"></i></div>
 	            <div class="Notification-text">
 	                <p>
 	                    <i class="zmdi zmdi-circle-o"></i>
-	                    <strong>New Updates</strong> 
+	                    <strong>New Updates</strong>
 	                    <br>
 	                    <small>30 Mins Ago</small>
 	                </p>
@@ -56,19 +55,19 @@
 	            <div class="Notification-text">
 	                <p>
 	                    <i class="zmdi zmdi-circle"></i>
-	                    <strong>Archive uploaded</strong> 
+	                    <strong>Archive uploaded</strong>
 	                    <br>
 	                    <small>31 Mins Ago</small>
 	                </p>
 	            </div>
 	            <div class="mdl-tooltip mdl-tooltip--left" for="notifation-unread-2">Notification as UnRead</div>
-	        </a> 
+	        </a>
 	        <a href="#" class="Notification" id="notifation-read-2">
 	            <div class="Notification-icon"><i class="zmdi zmdi-mail-send bg-danger"></i></div>
 	            <div class="Notification-text">
 	                <p>
 	                    <i class="zmdi zmdi-circle-o"></i>
-	                    <strong>New Mail</strong> 
+	                    <strong>New Mail</strong>
 	                    <br>
 	                    <small>37 Mins Ago</small>
 	                </p>
@@ -80,13 +79,13 @@
 	            <div class="Notification-text">
 	                <p>
 	                    <i class="zmdi zmdi-circle-o"></i>
-	                    <strong>Folder delete</strong> 
+	                    <strong>Folder delete</strong>
 	                    <br>
 	                    <small>1 hours Ago</small>
 	                </p>
 	            </div>
 	            <div class="mdl-tooltip mdl-tooltip--left" for="notifation-read-3">Notification as Read</div>
-	        </a>  
+	        </a>
 	    </section>
 	</section>
 	<!-- navLateral -->
@@ -94,7 +93,7 @@
 		<div class="full-width navLateral-bg btn-menu"></div>
 		<div class="full-width navLateral-body">
 			<div class="full-width navLateral-body-logo text-center tittles">
-				<i class="zmdi zmdi-close btn-menu"></i> Inventory 
+				<i class="zmdi zmdi-close btn-menu"></i> Inventory
 			</div>
 			<figure class="full-width navLateral-body-tittle-menu">
 				<div>
@@ -283,7 +282,7 @@
 		<!-- navBar -->
 		<div class="full-width navBar">
 			<div class="full-width navBar-options">
-				<i class="zmdi zmdi-swap btn-menu" id="btn-menu"></i>	
+				<i class="zmdi zmdi-swap btn-menu" id="btn-menu"></i>
 				<div class="mdl-tooltip" for="btn-menu">Hide / Show MENU</div>
 				<nav class="navBar-options-list">
 					<ul class="list-unstyle">
