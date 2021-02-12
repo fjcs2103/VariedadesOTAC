@@ -36,7 +36,7 @@
         <div class="Notification-text">
           <p>
             <i class="zmdi zmdi-circle"></i>
-            <strong>New User Registration</strong>
+            <strong>Nuevo Usuarion</strong>
             <br>
             <small>Just Now</small>
           </p>
