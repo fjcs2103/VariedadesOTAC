@@ -41,7 +41,7 @@
 				<button class="mdl-button mdl-js-button mdl-js-ripple-effect"  style="color: #3F51B5; margin: 0 auto; display: block;">
 					SIGN IN
 				</button>
-			</form>
+				
 		</div>
 	</div>
 </body>
