@@ -41,10 +41,14 @@
 				<button class="mdl-button mdl-js-button mdl-js-ripple-effect"  style="color: #3F51B5; margin: 0 auto; display: block;">
 					SIGN IN
 				</button>
+
+				
+			</form>
+			<form action="views/home.php">
 				<button class="mdl-button mdl-js-button mdl-js-ripple-effect"  style="color: #3F51B5; margin: 0 auto; display: block;">
 					RECUPERAR CONTRASEÑA
 				</button>
-			</form>
+				</form>
 		</div>
 	</div>
 </body>
