@@ -21,7 +21,7 @@
 	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 	<script src="js/main.js"></script>
 </head>
-
+<?php // TODO: Conectar a la BD ?>
 <body>
 	<div class="login-wrap cover">
 		<div class="container-login">
