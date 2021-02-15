@@ -31,7 +31,7 @@
 			<center><font color="green" face="candara">INGRESE SUS DATOS</font></center>
 			<form action="views/home.php">
 				<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-					<input class="mdl-textfield__input" type="text" id="userName">
+					<input class="mdl-textfield__input" type="text" style="text-transform:uppercase;" value=""onkeyup="javascript:this.value=this.value.toUpperCase();">
 					<label class="mdl-textfield__label" for="userName">Usuario</label>
 				</div>
 				<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
