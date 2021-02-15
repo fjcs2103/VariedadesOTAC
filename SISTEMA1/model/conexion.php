@@ -1,19 +1,14 @@
 <?php
 error_reporting(0);
-//Documentar los datos para ingresar al login
-//$servername= "";
-//$username= "";
-//$password= '';
-//$database= "";
-$servername= "localhost";
-$username= "";
-$password= '';
-$database= "";
-$conexion = new mysqli();
 
-$conexion->connect($servername,$username,$password,$database);
-if ($conexion->connect_error){
-    die("conexion fallida: ".$conexion->connect_error);
+$servername= "localhost";
+$usuario= "root";
+$contraseña= '';
+$database= "db_variedadesotac";
+$conexion = new mysqli($servername,$usuario,$contraseña,$database);
+
+if ($conexion->connect_errno){
+    echo("conexion fallida");
 }else
-//echo " ......"
+//echo " Conexion correcta   "
 ?>
