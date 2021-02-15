@@ -8,7 +8,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home</title>
+  <title>Hogar</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/sweetalert2.css">
   <link rel="stylesheet" href="css/material.min.css">
@@ -30,13 +30,13 @@
   <section class="full-width container-notifications">
     <div class="full-width container-notifications-bg btn-Notification"></div>
     <section class="NotificationArea">
-      <div class="full-width text-center NotificationArea-title tittles">Notifications <i class="zmdi zmdi-close btn-Notification"></i></div>
+      <div class="full-width text-center NotificationArea-title tittles">Notificaciones<i class="zmdi zmdi-close btn-Notification"></i></div>
       <a href="#" class="Notification" id="notifation-unread-1">
         <div class="Notification-icon"><i class="zmdi zmdi-accounts-alt bg-info"></i></div>
         <div class="Notification-text">
           <p>
             <i class="zmdi zmdi-circle"></i>
-            <strong>New User Registration</strong>
+            <strong>Nuevo Usuarion</strong>
             <br>
             <small>Just Now</small>
           </p>

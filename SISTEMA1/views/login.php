@@ -5,7 +5,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Login</title>
+	<title>VARIEDADES OTAC</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/sweetalert2.css">
 	<link rel="stylesheet" href="css/material.min.css">
@@ -26,12 +26,12 @@
 	<div class="login-wrap cover">
 		<div class="container-login">
 			<p class="text-center" style="font-size: 80px;">
-				<i class="zmdi zmdi-account-circle"></i>
+				<img src="imagenes/otac.jpg" width"150" height="150">
 			</p>
-			<p class="text-center text-condensedLight">Sign in with your Account</p>
+			<center><font color="green" face="candara">INGRESE SUS DATOS</font></center>
 			<form action="views/home.php">
 				<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-					<input class="mdl-textfield__input" type="text" id="userName">
+					<input class="mdl-textfield__input" type="text" style="text-transform:uppercase;" value=""onkeyup="javascript:this.value=this.value.toUpperCase();">
 					<label class="mdl-textfield__label" for="userName">Usuario</label>
 				</div>
 				<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -39,9 +39,10 @@
 					<label class="mdl-textfield__label" for="pass">Contraseña</label>
 				</div>
 				<button class="mdl-button mdl-js-button mdl-js-ripple-effect"  style="color: #3F51B5; margin: 0 auto; display: block;">
-					SIGN IN
+					INGRESAR
 				</button>
 
+<<<<<<< HEAD
 				
 			</form>
 			<form action="views/home.php">
@@ -49,6 +50,8 @@
 					RECUPERAR CONTRASEÑA
 				</button>
 				</form>
+=======
+>>>>>>> a34dc9a19223433ddeaa11f6a2799d8b8a228210
 		</div>
 	</div>
 </body>
