@@ -21,7 +21,36 @@
 	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 	<script src="js/main.js"></script>
 </head>
-<?php // TODO: Conectar a la BD ?>
+<?php
+$usuario=$_POST['usuario'];
+$contraseña=$_POST['contraseña'];
+session_start();
+$_SESSION['usuario']=$usuario;
+
+$conexion=mysqli_connect("localhost","root","","db_variedadesotac");
+
+$consulta="SELECT * FROM TBL_MS_USUARIOS where usuario='$usuario' and contraseña='$contraseña'";
+$resultado=mysqli_query($conexion,$consulta);
+
+$filas=mysqli_fetch_array($resultado);
+
+if($filas['TBL_MS_ROLES_id_rol']==1){ //administrador
+    header("location:admin.php");
+
+}else
+if($filas['TBL_MS_ROLES_id_rol']==2){ //vendedor
+header("location:cliente.php");
+}
+else{
+    ?>
+    <?php
+    include("index.html");
+    ?>
+    <h1 class="bad">ERROR EN LA AUTENTIFICACION</h1>
+    <?php
+}
+mysqli_free_result($resultado);
+mysqli_close($conexion);
 <body>
 	<div class="login-wrap cover">
 		<div class="container-login">
@@ -29,7 +58,7 @@
 				<img src="imagenes/otac.jpg" width"150" height="150">
 			</p>
 			<center><font color="green" face="candara">INGRESE SUS DATOS</font></center>
-			<form action="views/home.php">
+			<form action="views/home.php" method= "POST">
 				<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
 					<input class="mdl-textfield__input" type="text" id="userName">
 					<label class="mdl-textfield__label" for="userName">Usuario</label>
@@ -39,7 +68,7 @@
 					<label class="mdl-textfield__label" for="pass">Contraseña</label>
 				</div>
 				<button class="mdl-button mdl-js-button mdl-js-ripple-effect"  style="color: #3F51B5; margin: 0 auto; display: block;">
-					INGRESAR
+					Iniciar Sesion
 				</button>
 			</form>
 		</div>
