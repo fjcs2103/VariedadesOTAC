@@ -1,59 +1,24 @@
-<!-- Login con modelo MVC-->
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>VARIEDADES OTAC</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/sweetalert2.css">
-	<link rel="stylesheet" href="css/material.min.css">
-	<link rel="stylesheet" href="css/material-design-iconic-font.min.css">
-	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
-	<link rel="stylesheet" href="css/main.css">
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script>
-		window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')
-	</script>
-	<script src="js/material.min.js"></script>
-	<script src="js/sweetalert2.min.js"></script>
-	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-	<script src="js/main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="views/css/login.css">
+    <link rel="stylesheet" href="views/css/cabecera.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
 </head>
-<?php // TODO: Conectar a la BD ?>
 <body>
-	<div class="login-wrap cover">
-		<div class="container-login">
-			<p class="text-center" style="font-size: 80px;">
-				<img src="imagenes/otac.jpg" width"150" height="150">
-			</p>
-			<center><font color="green" face="candara">INGRESE SUS DATOS</font></center>
-			<form action="views/home.php">
-				<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-					<input class="mdl-textfield__input" type="text" style="text-transform:uppercase;" value=""onkeyup="javascript:this.value=this.value.toUpperCase();">
-					<label class="mdl-textfield__label" for="userName">Usuario</label>
-				</div>
-				<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-					<input class="mdl-textfield__input" type="password" id="pass">
-					<label class="mdl-textfield__label" for="pass">Contraseña</label>
-				</div>
-				<button class="mdl-button mdl-js-button mdl-js-ripple-effect"  style="color: #3F51B5; margin: 0 auto; display: block;">
-					INGRESAR
-				</button>
+   <form action="controllers/validar.php" method="post">
+		 <?php
+		 include("../controllers/validar.php")
+		 ?>
+   <h1 class="animate__animated animate__backInLeft">Sistema de login</h1>
+   <p>Usuario <input type="text" placeholder="ingrese su nombre" name="usuario"></p>
+   <p>Contraseña <input type="password" placeholder="ingrese su contraseña" name="contraseña"></p>
+   <input type="submit" value="Ingresar">
 
-<<<<<<< HEAD
-				
-			</form>
-			<form action="views/home.php">
-				<button class="mdl-button mdl-js-button mdl-js-ripple-effect"  style="color: #3F51B5; margin: 0 auto; display: block;">
-					RECUPERAR CONTRASEÑA
-				</button>
-				</form>
-=======
->>>>>>> a34dc9a19223433ddeaa11f6a2799d8b8a228210
-		</div>
-	</div>
+   </form>
+
 </body>
-
 </html>
