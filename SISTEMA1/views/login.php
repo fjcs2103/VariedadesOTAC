@@ -6,7 +6,7 @@
     <title>login</title>
     <link rel="stylesheet" href="views/css/login.css">
     <link rel="stylesheet" href="views/css/cabecera.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link rel="stylesheet" href="">
 </head>
 <<<<<<< HEAD
 <?php
