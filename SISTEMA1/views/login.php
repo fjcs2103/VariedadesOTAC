@@ -14,7 +14,7 @@
 		 include("../controllers/validar.php")
 		 ?>
    <h1 class="animate__animated animate__backInLeft">Sistema de login</h1>
-   <p>Usuario <input type="text" placeholder="ingrese su nombre" name="usuario"></p>
+   <p>Usuario <input type="text" placeholder="ingrese su nombre" name="usuario" style="text-transform:uppercase;" value=""onkeyup="javascript:this.value=this.value.toUpperCase();"></p>
    <p>Contraseña <input type="password" placeholder="ingrese su contraseña" name="contraseña"></p>
    <input type="submit" value="Ingresar">
 
