@@ -106,8 +106,8 @@
         </div>
         <figcaption>
           <span>
-            Full Name Admin<br>
-            <small>Admin</small>
+            Bienvenido<br>
+            <small>Administrador</small>
           </span>
         </figcaption>
       </figure>
@@ -119,7 +119,7 @@
                 <i class="zmdi zmdi-view-dashboard"></i>
               </div>
               <div class="navLateral-body-cr">
-                HOME
+                Principal
               </div>
             </a>
           </li>
@@ -130,7 +130,7 @@
                 <i class="zmdi zmdi-case"></i>
               </div>
               <div class="navLateral-body-cr">
-                ADMINISTRATION
+                Administracion
               </div>
               <span class="zmdi zmdi-chevron-left"></span>
             </a>
@@ -141,7 +141,7 @@
                     <i class="zmdi zmdi-balance"></i>
                   </div>
                   <div class="navLateral-body-cr">
-                    COMPANY
+                    Empresa
                   </div>
                 </a>
               </li>
@@ -151,7 +151,7 @@
                     <i class="zmdi zmdi-truck"></i>
                   </div>
                   <div class="navLateral-body-cr">
-                    PROVIDERS
+                    Proveedores
                   </div>
                 </a>
               </li>
@@ -161,7 +161,7 @@
                     <i class="zmdi zmdi-card"></i>
                   </div>
                   <div class="navLateral-body-cr">
-                    PAYMENTS
+                    Compras
                   </div>
                 </a>
               </li>
@@ -171,7 +171,7 @@
                     <i class="zmdi zmdi-label"></i>
                   </div>
                   <div class="navLateral-body-cr">
-                    CATEGORIES
+                    Rubros
                   </div>
                 </a>
               </li>
@@ -184,7 +184,7 @@
                 <i class="zmdi zmdi-face"></i>
               </div>
               <div class="navLateral-body-cr">
-                USERS
+                Usuarios
               </div>
               <span class="zmdi zmdi-chevron-left"></span>
             </a>
@@ -195,7 +195,7 @@
                     <i class="zmdi zmdi-account"></i>
                   </div>
                   <div class="navLateral-body-cr">
-                    ADMINISTRATORS
+                    Administradores
                   </div>
                 </a>
               </li>
@@ -205,7 +205,7 @@
                     <i class="zmdi zmdi-accounts"></i>
                   </div>
                   <div class="navLateral-body-cr">
-                    CLIENT
+                    Clientes
                   </div>
                 </a>
               </li>
@@ -218,7 +218,7 @@
                 <i class="zmdi zmdi-washing-machine"></i>
               </div>
               <div class="navLateral-body-cr">
-                PRODUCTS
+                Productos
               </div>
             </a>
           </li>
@@ -229,7 +229,7 @@
                 <i class="zmdi zmdi-shopping-cart"></i>
               </div>
               <div class="navLateral-body-cr">
-                SALES
+                Ventas
               </div>
             </a>
           </li>
@@ -240,7 +240,7 @@
                 <i class="zmdi zmdi-store"></i>
               </div>
               <div class="navLateral-body-cr">
-                INVENTORY
+                Inventario
               </div>
             </a>
           </li>
@@ -251,7 +251,7 @@
                 <i class="zmdi zmdi-wrench"></i>
               </div>
               <div class="navLateral-body-cr">
-                SETTINGS
+                Configuracion
               </div>
               <span class="zmdi zmdi-chevron-left"></span>
             </a>
@@ -262,18 +262,12 @@
                     <i class="zmdi zmdi-widgets"></i>
                   </div>
                   <div class="navLateral-body-cr">
-                    OPTION
+                    Opciones
                   </div>
                 </a>
               </li>
-              <li class="full-width">
-                <a href="#!" class="full-width">
-                  <div class="navLateral-body-cl">
-                    <i class="zmdi zmdi-widgets"></i>
-                  </div>
-                  <div class="navLateral-body-cr">
-                    OPTION
-                  </div>
+
+
                 </a>
               </li>
             </ul>
@@ -293,13 +287,13 @@
           <ul class="list-unstyle">
             <li class="btn-Notification" id="notifications">
               <i class="zmdi zmdi-notifications"></i>
-              <div class="mdl-tooltip" for="notifications">Notifications</div>
+              <div class="mdl-tooltip" for="notifications">Notificaciones</div>
             </li>
             <li class="btn-exit" id="btn-exit">
               <i class="zmdi zmdi-power"></i>
-              <div class="mdl-tooltip" for="btn-exit">LogOut</div>
+              <div class="mdl-tooltip" for="btn-exit"> Cerrar sesion</div>
             </li>
-            <li class="text-condensedLight noLink"><small>User Name</small></li>
+            <li class="text-condensedLight noLink"><small>Administrador</small></li>
             <li class="noLink">
               <figure>
                 <img src="assets/img/avatar-male.png" alt="Avatar" class="img-responsive">
@@ -310,13 +304,13 @@
       </div>
     </div>
     <section class="full-width text-center" style="padding: 40px 0;">
-      <h3 class="text-center tittles">RESPONSIVE TILES</h3>
+      <h3 class="text-center tittles">Bienvenido</h3>
       <!-- Tiles -->
       <article class="full-width tile">
         <div class="tile-text">
           <span class="text-condensedLight">
             2<br>
-            <small>Administrators</small>
+            <small>Administradores</small>
           </span>
         </div>
         <i class="zmdi zmdi-account tile-icon"></i>
@@ -325,7 +319,7 @@
         <div class="tile-text">
           <span class="text-condensedLight">
             71<br>
-            <small>Clients</small>
+            <small>Clientes</small>
           </span>
         </div>
         <i class="zmdi zmdi-accounts tile-icon"></i>
@@ -334,7 +328,7 @@
         <div class="tile-text">
           <span class="text-condensedLight">
             7<br>
-            <small>Providers</small>
+            <small>Proveedores</small>
           </span>
         </div>
         <i class="zmdi zmdi-truck tile-icon"></i>
@@ -343,7 +337,7 @@
         <div class="tile-text">
           <span class="text-condensedLight">
             9<br>
-            <small>Categories</small>
+            <small>Rubros</small>
           </span>
         </div>
         <i class="zmdi zmdi-label tile-icon"></i>
@@ -352,7 +346,7 @@
         <div class="tile-text">
           <span class="text-condensedLight">
             121<br>
-            <small>Products</small>
+            <small>Productos</small>
           </span>
         </div>
         <i class="zmdi zmdi-washing-machine tile-icon"></i>
@@ -361,14 +355,14 @@
         <div class="tile-text">
           <span class="text-condensedLight">
             47<br>
-            <small>Sales</small>
+            <small>Ventas</small>
           </span>
         </div>
         <i class="zmdi zmdi-shopping-cart tile-icon"></i>
       </article>
     </section>
     <section class="full-width" style="margin: 30px 0;">
-      <h3 class="text-center tittles">RESPONSIVE TIMELINE</h3>
+      <h3 class="text-center tittles">VARIEDADES OTAC</h3>
       <!-- TimeLine -->
       <div id="timeline-c" class="timeline-c">
         <div class="timeline-c-box">
@@ -376,7 +370,7 @@
             <i class="zmdi zmdi-twitter"></i>
           </div>
           <div class="timeline-c-box-content">
-            <h4 class="text-center text-condensedLight">Tittle timeline</h4>
+            <h4 class="text-center text-condensedLight">2021 Copyright Solutions Team</h4>
             <p class="text-center">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta nobis rerum iure nostrum dolor. Quo totam possimus, ex, sapiente rerum vel maxime fugiat, ipsam blanditiis veniam, suscipit labore excepturi veritatis.
             </p>
